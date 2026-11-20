@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خطوة نحو القمة | دليلك ومجتمعك لاحتراف التجارة الإلكترونية</title>
+  <meta name="description" content="منصتك الأولى للتعلم والتوجيه في عالم التجارة الإلكترونية من الصفر حتى تحقيق أول مبيعاتك وأرباحك. إشراف وتوجيه المدير ميرو بدجلمان.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            cairo: ['Cairo', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#1e3a8a',
+              900: '#0f172a',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+    }
+    .gradient-hero {
+      background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.15), transparent 50%),
+                  radial-gradient(circle at bottom left, rgba(245, 158, 11, 0.1), transparent 50%);
+    }
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-gradient-to-r from-brand-900 via-brand-700 to-brand-900 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-sm">
+    ✨ التسجيل مفتوح الآن في مجموعة التدريب والمرافقة المجانية على المسنجر والواتساب!
+    <a href="#join" class="underline mr-2 font-bold text-gold-400 hover:text-white transition">انضم إلينا الآن &larr;</a>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-50 glassmorphism border-b border-slate-200/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-brand-600 to-indigo-800 flex items-center justify-center text-white shadow-lg shadow-brand-500/25 group-hover:scale-105 transition-transform">
+          <i data-lucide="trending-up" class="w-6 h-6 text-gold-400"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xl font-black tracking-tight text-slate-900 group-hover:text-brand-600 transition">خطوة نحو القمة</span>
+          <span class="text-[11px] text-slate-500 font-semibold">بوابتك لعالم التجارة الرقمية</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-600">
+        <a href="#concepts" class="hover:text-brand-600 transition">مفاهيم التجارة</a>
+        <a href="#tips" class="hover:text-brand-600 transition">نصائح ذهبية</a>
+        <a href="#calculator" class="hover:text-brand-600 transition">حاسبة الأرباح</a>
+        <a href="#videos" class="hover:text-brand-600 transition">فيديوهات تعليمية</a>
+      </nav>
+
+      <!-- CTA Button -->
+      <div class="flex items-center gap-3">
+        <a href="#join" class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-indigo-700 hover:from-brand-700 hover:to-indigo-800 text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-md shadow-brand-500/20 hover:shadow-lg transition transform hover:-translate-y-0.5">
+          <i data-lucide="users" class="w-4 h-4"></i>
+          <span>انضم لمجموعتنا مجاناً</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative overflow-hidden py-16 sm:py-24 gradient-hero">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <!-- Tag Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-200 text-brand-700 text-xs sm:text-sm font-bold mb-6 shadow-sm">
+        <span class="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        مجتمع شبابي لمرافقة رواد الأعمال خطوة بخطوة
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="text-4xl sm:text-6xl font-black text-slate-950 tracking-tight leading-[1.2] max-w-4xl mx-auto mb-6">
+        خطوتك الأولى نحو احتراف <br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-l from-brand-600 via-indigo-600 to-amber-500">التجارة الإلكترونية والحرية المالية</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+        تعلم أساسيات التجارة الإلكترونية، كيفية اختيار المنتجات الرابحة، إطلاق إعلانات تسويقية ناجحة، وبناء مصدر دخل حقيقي ومستمر دون تعقيد.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-14">
+        <a href="#join" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-brand-600 to-indigo-700 hover:from-brand-700 text-white px-8 py-4 rounded-2xl font-black text-base shadow-xl shadow-brand-600/30 hover:scale-105 transition-all">
+          <i data-lucide="message-circle" class="w-5 h-5 text-gold-400"></i>
+          <span>دخول مجموعة المسنجر</span>
+        </a>
+        <a href="#concepts" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-slate-800 border border-slate-200 px-7 py-4 rounded-2xl font-bold text-base shadow-sm transition">
+          <i data-lucide="book-open" class="w-5 h-5 text-brand-600"></i>
+          <span>ابدأ بالتعلم مجاناً</span>
+        </a>
+      </div>
+
+      <!-- Trust Elements / Stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-slate-200/80">
+        <div class="p-4 bg-white/70 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-3xl font-black text-brand-600 mb-1">+100%</div>
+          <div class="text-xs sm:text-sm font-bold text-slate-500">مرافقة وتوجيه مجاني</div>
+        </div>
+        <div class="p-4 bg-white/70 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-3xl font-black text-indigo-600 mb-1">0 دج</div>
+          <div class="text-xs sm:text-sm font-bold text-slate-500">تكلفة الانضمام للمجموعة</div>
+        </div>
+        <div class="p-4 bg-white/70 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-3xl font-black text-amber-500 mb-1">COD</div>
+          <div class="text-xs sm:text-sm font-bold text-slate-500">نظام الدفع عند الاستلام</div>
+        </div>
+        <div class="p-4 bg-white/70 rounded-2xl border border-slate-100 shadow-sm">
+          <div class="text-3xl font-black text-emerald-600 mb-1">24/7</div>
+          <div class="text-xs sm:text-sm font-bold text-slate-500">دعم وتواصل مع الفريق</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 1: E-COMMERCE CONCEPTS -->
+  <section id="concepts" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-brand-600 font-extrabold text-sm uppercase tracking-wider">أساسيات البيزنس</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">ما هي التجارة الإلكترونية وكيف تبدأ؟</h2>
+        <p class="text-slate-600 text-base sm:text-lg">التجارة الإلكترونية ليست ضربة حظ، بل هي خطوات مدروسة تبدأ من فهم حاجة السوق وتوفير الحل المناسب.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Card 1 -->
+        <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-2xl bg-blue-100 text-brand-600 flex items-center justify-center mb-6 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+            <i data-lucide="package-search" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">1. اختيار المنتج الرابح</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-4">
+            المنتج الرابح (Winning Product) ليس ما يعجبك أنت شخصياً، بل هو منتج يحل مشكلة يومية ملحة، أو يوفر راحة، أو يتميز بـ "عامل الإبهار" (Wow Factor) غير متوفر في المحلات المجاورة.
+          </p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> يحل مشكلة واضحة</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> هامش ربح ممتاز (أكثر من 1000 دج)</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> سهل الشحن والتوصيل</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+            <i data-lucide="megaphone" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">2. التسويق وصناعة الإعلان</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-4">
+            الإعلان هو الجسر الذي يربط منتجك بالمشتري. ريلز وفيديوهات تيك توك القصيرة الجذابة خلال أول 3 ثوانٍ (Hook) هي مفتاح إقناع الزبون بالضغط والشراء.
+          </p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> خطاف قوي في أول 3 ثواني</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> إظهار النتيجة قبل الشراء</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> دعوة واضحة للشراء (Call To Action)</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+          <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center mb-6 group-hover:bg-amber-600 group-hover:text-white transition-colors">
+            <i data-lucide="truck" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-3">3. التأكيد والتوصيل (COD)</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-4">
+            نظام الدفع عند الاستلام يعتمد على سرعة الاتصال بالزبون لتأكيد طلبه في أقل من 30 دقيقة، ثم إرسال الطرد مع شركة توصيل موثوقة لتقليل نسبة الإلغاء.
+          </p>
+          <ul class="text-xs text-slate-500 space-y-1.5 font-medium">
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> تأكيد هاتفي سريع واحترافي</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> تغليف متين وجذاب</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> متابعة الطرود حتى التسليم</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 2: GOLDEN TIPS -->
+  <section id="tips" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <div class="absolute -top-40 -right-40 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-gold-400 font-extrabold text-sm uppercase tracking-wider">خلاصة التجربة الميدانية</span>
+        <h2 class="text-3xl sm:text-4xl font-black mt-2 mb-4">6 نصائح ذهبية لا غنى عنها لأي مبتدئ</h2>
+        <p class="text-slate-400 text-base sm:text-lg">تجنب الأخطاء التي تسببت في خسارة الكثيرين وابدأ على أرضية صلبة ومربحة.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Tip 1 -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-gold-400/50 transition">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-full bg-gold-400/20 text-gold-400 font-black text-sm flex items-center justify-center">1</span>
+            <h4 class="font-bold text-lg text-white">لا تبدأ برأس مال ضخم</h4>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            ابدأ بتجربة كميات صغيرة (10 إلى 20 قطعة فقط). لا تخزن بضاعة كبيرة حتى تتأكد من أن الإعلانات تحقق مبيعات فعلية.
+          </p>
+        </div>
+
+        <!-- Tip 2 -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-gold-400/50 transition">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-full bg-gold-400/20 text-gold-400 font-black text-sm flex items-center justify-center">2</span>
+            <h4 class="font-bold text-lg text-white">احسب مصاريفك بدقة</h4>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            الربح الصافي = (سعر البيع) - (سعر الشراء + كلفة الإعلان للطلبية + كلفة التوصيل + نسبة الطرود الملغاة).
+          </p>
+        </div>
+
+        <!-- Tip 3 -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-gold-400/50 transition">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-full bg-gold-400/20 text-gold-400 font-black text-sm flex items-center justify-center">3</span>
+            <h4 class="font-bold text-lg text-white">ركز على زبون راضٍ</h4>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            الصدق في وصف المنتج هو سر استمرارك. المنتج الرديء يجلب لك الإلغاء وخسارة سعر التوصيل من جيبك!
+          </p>
+        </div>
+
+        <!-- Tip 4 -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-gold-400/50 transition">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-full bg-gold-400/20 text-gold-400 font-black text-sm flex items-center justify-center">4</span>
+            <h4 class="font-bold text-lg text-white">السرعة في التأكيد</h4>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            الزبون الذي يطلب الآن قد يغير رأيه بعد ساعتين. الاتصال السريع به يرفع نسبة تسليم الطرد إلى أكثر من 85%.
+          </p>
+        </div>
+
+        <!-- Tip 5 -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-gold-400/50 transition">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-full bg-gold-400/20 text-gold-400 font-black text-sm flex items-center justify-center">5</span>
+            <h4 class="font-bold text-lg text-white">المحتوى هو الملك</h4>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            لا تكتفِ بالصور الجامدة. صوّر المنتج بيدك وأنت تجربه واستعرض فوائده في فيديو قصير وعفوي يجيب على تساؤلات المشتري.
+          </p>
+        </div>
+
+        <!-- Tip 6 -->
+        <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 hover:border-gold-400/50 transition">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="w-8 h-8 rounded-full bg-gold-400/20 text-gold-400 font-black text-sm flex items-center justify-center">6</span>
+            <h4 class="font-bold text-lg text-white">لا تعمل بمفردك</h4>
+          </div>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            الانضمام لمجموعة تشاركك نفس الشغف وتوفر لك الإرشاد يختصر عليك أشهراً من التخبط ويمنحك دفعة مستمرة للنجاح.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 3: INTERACTIVE PROFIT CALCULATOR -->
+  <section id="calculator" class="py-20 bg-slate-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-slate-200">
+        <div class="text-center mb-8">
+          <div class="inline-flex p-3 rounded-2xl bg-emerald-100 text-emerald-600 mb-3">
+            <i data-lucide="calculator" class="w-8 h-8"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-slate-900">حاسبة أرباح المنتج في التجارة الإلكترونية</h2>
+          <p class="text-slate-500 text-sm mt-1">احسب صافي ربحك الحقيقي المتوقع قبل أن تبدأ في بيع أي منتج</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-2">سعر بيع المنتج للزبون (دج)</label>
+            <input type="number" id="calc-sale-price" value="3800" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-2">سعر شراء المنتج بالجملة (دج)</label>
+            <input type="number" id="calc-cost-price" value="1800" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-2">معدل كلفة الإعلانات لكل طلبية (دج)</label>
+            <input type="number" id="calc-ad-cost" value="500" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-2">متوسط كلفة التوصيل ومصاريف التغليف (دج)</label>
+            <input type="number" id="calc-shipping-cost" value="600" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
+          </div>
+        </div>
+
+        <!-- Result Box -->
+        <div class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-2xl p-6 text-center shadow-lg">
+          <div class="text-sm font-semibold opacity-90 mb-1">صافي الربح المتوقع لكل مبيعة:</div>
+          <div class="text-4xl sm:text-5xl font-black tracking-tight" id="calc-result">900 دج</div>
+          <div class="text-xs mt-3 opacity-90" id="calc-monthly">بمعدل 10 مبيعات يومياً = 270,000 دج شهرياً أرباح صافية! 🚀</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4: EDUCATIONAL VIDEOS -->
+  <section id="videos" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-brand-600 font-extrabold text-sm uppercase tracking-wider">مكتبة الفيديو</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">فيديوهات وشروحات عملية مختارة</h2>
+        <p class="text-slate-600 text-base sm:text-lg">شاهد وتعلّم أهم الخطوات الميدانية لبناء وتطوير مشروعك التجاري عبر الإنترنت.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Video 1 -->
+        <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="relative aspect-video bg-slate-900">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/5qap5aO4i9A" title="مفاهيم التجارة الإلكترونية" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="p-6">
+            <span class="inline-block px-3 py-1 bg-blue-100 text-brand-700 rounded-lg text-xs font-bold mb-2">أساسيات من الصفر</span>
+            <h3 class="font-bold text-lg text-slate-900 mb-2">الدليل الشامل للبدء في التجارة الإلكترونية المحلية</h3>
+            <p class="text-slate-500 text-xs leading-relaxed">شرح تفصيلي لدورة البيع الكاملة من استيراد أو شراء السلعة وحتى استلام أموالك من شركة التوصيل.</p>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="relative aspect-video bg-slate-900">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="طريقة اختيار المنتج" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="p-6">
+            <span class="inline-block px-3 py-1 bg-amber-100 text-amber-700 rounded-lg text-xs font-bold mb-2">المنتج الرابح</span>
+            <h3 class="font-bold text-lg text-slate-900 mb-2">كيف تجد منتجاً يطلبه آلاف الزبائن يومياً؟</h3>
+            <p class="text-slate-500 text-xs leading-relaxed">أدوات وتقنيات مجانية لمراقبة إعلانات المنافسين ومعرفة المنتجات الأكثر مبيعاً في السوق حالياً.</p>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="relative aspect-video bg-slate-900">
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="أسرار التسويق والإعلانات" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="p-6">
+            <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 rounded-lg text-xs font-bold mb-2">التسويق والمبيعات</span>
+            <h3 class="font-bold text-lg text-slate-900 mb-2">كيف تصنع إعلاناً مقنعاً على فيسبوك وتيك توك</h3>
+            <p class="text-slate-500 text-xs leading-relaxed">قواعد كتابة النصوص الإعلانية (Copywriting) وكيفية التحدث مع الزبون في الخاص لإتمام البيع بسهولة.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 5: JOIN & REGISTRATION -->
+  <section id="join" class="py-20 bg-gradient-to-br from-brand-900 via-indigo-950 to-slate-950 text-white relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-brand-500 to-amber-400 flex items-center justify-center text-white mx-auto mb-6 shadow-2xl shadow-brand-500/50">
+        <i data-lucide="zap" class="w-10 h-10 text-white"></i>
+      </div>
+
+      <h2 class="text-3xl sm:text-5xl font-black mb-4">انضم إلى مجموعة « خطوة نحو القمة »</h2>
+      <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto mb-10">
+        رانا نتعلمو التجارة الإلكترونية مجاناً في مجموعة مسنجر وواتساب مع مدربين وأصحاب خبرة.. لا تفوت فرصتك وابدأ خطوتك الأولى اليوم!
+      </p>
+
+      <!-- Action Box -->
+      <div class="bg-white/10 backdrop-blur-xl p-8 rounded-3xl border border-white/20 max-w-xl mx-auto text-right">
+        
+        <form id="lead-form" onsubmit="handleJoinSubmit(event)" class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-200 mb-2">اسمك الكامل:</label>
+            <input type="text" id="user-name" required placeholder="مثال: محمد، أمين، فاطمة..." class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-gold-400 font-semibold text-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-200 mb-2">رقم الهاتف أو الواتساب:</label>
+            <input type="tel" id="user-phone" required placeholder="06 / 07 / 05..." class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-gold-400 font-semibold text-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-200 mb-2">ولايتك:</label>
+            <input type="text" id="user-city" required placeholder="مثال: الجزائر، وهران، قسنطينة، سطيف..." class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-gold-400 font-semibold text-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-200 mb-2">هل لديك تجربة سابقة في التجارة الإلكترونية؟</label>
+            <select id="user-exp" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-gold-400 font-semibold text-sm">
+              <option value="مبتدئ تماماً (من الصفر)">مبتدئ تماماً (أريد البدء من الصفر)</option>
+              <option value="لدي معلومات ولكن لم أبدأ بعد">لدي فكرة ومعلومات ولكن لم أبدأ بعد</option>
+              <option value="جربت وأريد تطوير نتائجي">جربت البيع وأريد تحقيق نتائج أفضل</option>
+            </select>
+          </div>
+
+          <button type="submit" class="w-full mt-4 bg-gradient-to-r from-gold-500 via-amber-500 to-gold-600 hover:from-gold-600 hover:to-amber-600 text-slate-950 font-black py-4 px-6 rounded-2xl shadow-xl shadow-gold-500/20 text-base flex items-center justify-center gap-2 transition transform hover:scale-[1.02]">
+            <i data-lucide="send" class="w-5 h-5"></i>
+            <span>أرسل طلبي للانضمام إلى المجموعة</span>
+          </button>
+        </form>
+
+        <div id="success-msg" class="hidden mt-6 p-4 rounded-xl bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-center text-sm font-bold">
+          🎉 شكراً لك! تم استلام بياناتك بنجاح، جاري تحويلك للمسنجر/الواتساب للتواصل معك مباشرة.
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-right flex flex-col sm:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white">
+          <i data-lucide="trending-up" class="w-5 h-5 text-gold-400"></i>
+        </div>
+        <div>
+          <span class="text-lg font-black text-white block">خطوة نحو القمة</span>
+          <span class="text-xs text-slate-500">إشراف وتوجيه المدير ميرو بدجلمان (Miro Badjelmane)</span>
+        </div>
+      </div>
+
+      <div class="text-xs text-slate-500 text-center sm:text-left">
+        جميع الحقوق محفوظة &copy; 2026 خطوة نحو القمة. <br>
+        تم التطوير والتصميم بعناية واحترافية.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Profit Calculator Logic
+    const salePriceInput = document.getElementById('calc-sale-price');
+    const costPriceInput = document.getElementById('calc-cost-price');
+    const adCostInput = document.getElementById('calc-ad-cost');
+    const shippingCostInput = document.getElementById('calc-shipping-cost');
+    const resultElement = document.getElementById('calc-result');
+    const monthlyElement = document.getElementById('calc-monthly');
+
+    function calculateProfit() {
+      const sale = parseFloat(salePriceInput.value) || 0;
+      const cost = parseFloat(costPriceInput.value) || 0;
+      const ad = parseFloat(adCostInput.value) || 0;
+      const ship = parseFloat(shippingCostInput.value) || 0;
+
+      const netProfit = sale - (cost + ad + ship);
+      resultElement.textContent = netProfit.toLocaleString('ar-DZ') + ' دج';
+
+      const monthly10 = netProfit * 10 * 30;
+      monthlyElement.textContent = `بمعدل 10 مبيعات يومياً = ${monthly10.toLocaleString('ar-DZ')} دج شهرياً أرباح صافية! 🚀`;
+    }
+
+    [salePriceInput, costPriceInput, adCostInput, shippingCostInput].forEach(input => {
+      input.addEventListener('input', calculateProfit);
+    });
+
+    // Handle Form Submit
+    function handleJoinSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('user-name').value;
+      const phone = document.getElementById('user-phone').value;
+      const city = document.getElementById('user-city').value;
+      const exp = document.getElementById('user-exp').value;
+
+      document.getElementById('success-msg').classList.remove('hidden');
+
+      // Prepare WhatsApp / Messenger message
+      const text = encodeURIComponent(`السلام عليكم، أنا ${name} من ولاية ${city}. أريد الانضمام إلى مجموعة خطوة نحو القمة للتجارة الإلكترونية.\nرقم هاتفي: ${phone}\nمستواي: ${exp}`);
+      
+      setTimeout(() => {
+        // You can update this phone number with المدير ميرو's phone
+        window.open(`https://wa.me/?text=${text}`, '_blank');
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>
