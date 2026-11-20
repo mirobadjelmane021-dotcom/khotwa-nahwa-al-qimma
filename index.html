@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>خطوة نحو القمة | دليلك ومجتمعك لاحتراف التجارة الإلكترونية</title>
-  <meta name="description" content="منصتك الأولى للتعلم والتوجيه في عالم التجارة الإلكترونية من الصفر حتى تحقيق أول مبيعاتك وأرباحك. إشراف وتوجيه المدير ميرو بدجلمان.">
+  <meta name="description" content="منصتك الأولى للتعلم والتوجيه في عالم التجارة الإلكترونية من الصفر حتى تحقيق أول مبيعاتك وأرباحك.">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,7 +88,6 @@
       <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-600">
         <a href="#concepts" class="hover:text-brand-600 transition">مفاهيم التجارة</a>
         <a href="#tips" class="hover:text-brand-600 transition">نصائح ذهبية</a>
-        <a href="#calculator" class="hover:text-brand-600 transition">حاسبة الأرباح</a>
         <a href="#videos" class="hover:text-brand-600 transition">فيديوهات تعليمية</a>
       </nav>
 
@@ -310,49 +309,7 @@
     </div>
   </section>
 
-  <!-- SECTION 3: INTERACTIVE PROFIT CALCULATOR -->
-  <section id="calculator" class="py-20 bg-slate-100">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-slate-200">
-        <div class="text-center mb-8">
-          <div class="inline-flex p-3 rounded-2xl bg-emerald-100 text-emerald-600 mb-3">
-            <i data-lucide="calculator" class="w-8 h-8"></i>
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-black text-slate-900">حاسبة أرباح المنتج في التجارة الإلكترونية</h2>
-          <p class="text-slate-500 text-sm mt-1">احسب صافي ربحك الحقيقي المتوقع قبل أن تبدأ في بيع أي منتج</p>
-        </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-2">سعر بيع المنتج للزبون (دج)</label>
-            <input type="number" id="calc-sale-price" value="3800" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-2">سعر شراء المنتج بالجملة (دج)</label>
-            <input type="number" id="calc-cost-price" value="1800" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-2">معدل كلفة الإعلانات لكل طلبية (دج)</label>
-            <input type="number" id="calc-ad-cost" value="500" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
-          </div>
-          <div>
-            <label class="block text-xs font-bold text-slate-700 mb-2">متوسط كلفة التوصيل ومصاريف التغليف (دج)</label>
-            <input type="number" id="calc-shipping-cost" value="600" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 font-bold text-slate-800 outline-none">
-          </div>
-        </div>
-
-        <!-- Result Box -->
-        <div class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-2xl p-6 text-center shadow-lg">
-          <div class="text-sm font-semibold opacity-90 mb-1">صافي الربح المتوقع لكل مبيعة:</div>
-          <div class="text-4xl sm:text-5xl font-black tracking-tight" id="calc-result">900 دج</div>
-          <div class="text-xs mt-3 opacity-90" id="calc-monthly">بمعدل 10 مبيعات يومياً = 270,000 دج شهرياً أرباح صافية! 🚀</div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
 
   <!-- SECTION 4: EDUCATIONAL VIDEOS -->
   <section id="videos" class="py-20 bg-white">
@@ -473,7 +430,7 @@
         </div>
         <div>
           <span class="text-lg font-black text-white block">خطوة نحو القمة</span>
-          <span class="text-xs text-slate-500">إشراف وتوجيه المدير ميرو بدجلمان (Miro Badjelmane)</span>
+          <span class="text-xs text-slate-500">مجتمع رواد التجارة الرقمية والتطوير الحر</span>
         </div>
       </div>
 
@@ -489,31 +446,6 @@
   <script>
     // Initialize Lucide Icons
     lucide.createIcons();
-
-    // Profit Calculator Logic
-    const salePriceInput = document.getElementById('calc-sale-price');
-    const costPriceInput = document.getElementById('calc-cost-price');
-    const adCostInput = document.getElementById('calc-ad-cost');
-    const shippingCostInput = document.getElementById('calc-shipping-cost');
-    const resultElement = document.getElementById('calc-result');
-    const monthlyElement = document.getElementById('calc-monthly');
-
-    function calculateProfit() {
-      const sale = parseFloat(salePriceInput.value) || 0;
-      const cost = parseFloat(costPriceInput.value) || 0;
-      const ad = parseFloat(adCostInput.value) || 0;
-      const ship = parseFloat(shippingCostInput.value) || 0;
-
-      const netProfit = sale - (cost + ad + ship);
-      resultElement.textContent = netProfit.toLocaleString('ar-DZ') + ' دج';
-
-      const monthly10 = netProfit * 10 * 30;
-      monthlyElement.textContent = `بمعدل 10 مبيعات يومياً = ${monthly10.toLocaleString('ar-DZ')} دج شهرياً أرباح صافية! 🚀`;
-    }
-
-    [salePriceInput, costPriceInput, adCostInput, shippingCostInput].forEach(input => {
-      input.addEventListener('input', calculateProfit);
-    });
 
     // Handle Form Submit
     function handleJoinSubmit(e) {
